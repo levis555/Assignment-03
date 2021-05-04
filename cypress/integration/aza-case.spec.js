@@ -1,5 +1,4 @@
-    
-    cy.log('At login page!') 
+cy.log('At login page!') 
     cy.per/// <reference types="cypress" />
 
 describe('First example', () => {
