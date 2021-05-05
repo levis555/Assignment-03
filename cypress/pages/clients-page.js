@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 const CREATE_CLIENT_BTN = "h2 > .btn"
-const CLIENT_LIST = ".client"
+const client_list = ".client"
 
 const THREE_DOTS_BTN = ".action > img"
 const DELETE_BTN = ".menu > :nth-child(2)"
@@ -12,7 +12,7 @@ function viewClientNew(content) {
 }
 
 function verifyLastClient(name, mail, phone){
-    cy.get(CLIENT_LIST).last()
+    cy.get(client_page).last()
     .should("contain", name)
     .and("contain", mail)
     .and("contain", phone)
