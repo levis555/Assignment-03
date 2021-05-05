@@ -1,0 +1,18 @@
+Reflektioner assignment 003
+
+Vi har lärt oss hur man skapar ett grupprojekt i github samt hur ”Branches” fungerar. Vi har lärt oss kortkommandon som
+
+Vi valde att ta en kopia av assignment 2
+Vi bestämde att vi alla skulle göra en branch var där man kan ladda upp sina ändringar. För att undvika konflikter gjorde vi alla nya filer med egna namn där vi gjorde våra ändringar. S
+Sanna laddade upp kopian till
+Git add .
+Git status
+Git branch -a
+Git log
+Git commit -m ”kommentar”
+Git push origin ”Branchnamn”
+Git checkout -b “Branchnamn”
+Git branch -D “Branchnamn”
+
+Vi skapade en branch var där vi skapade en fil var. Detta gjorde vi för att undvika konflikter. Sedan insåg vi att vi ville ha konflikter så det var ju kul
+Vi har suttit mycket tillsammans i discord medan vi har arbetat så att vi alla har koll på vad som händer var och så att vi alla kan vara med på hela processen i projektet från början till slut
