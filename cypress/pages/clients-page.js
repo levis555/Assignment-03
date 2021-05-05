@@ -12,7 +12,7 @@ function viewClientNew(content) {
 }
 
 function verifyLastClient(name, mail, phone){
-    cy.get(client_page).last()
+    cy.get(client_list).last()
     .should("contain", name)
     .and("contain", mail)
     .and("contain", phone)
