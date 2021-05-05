@@ -1,13 +1,13 @@
-/// <reference types="cypress" />
+    
+    cy.log('At login page!') 
+    cy.per/// <reference types="cypress" />
 
 describe('First example', () => {
     it('Test case 1', () => {
     cy.visit('http://localhost:3000/login')
     cy.title().should('eq','Testers Hotel')
     cy.contains('Login')
-      
-    cy.log('At login page!') 
-    cy.percySnapshot('index-page')
+  cySnapshot('index-page')
 
     cy.get(':nth-child(1) > input').type('tester01')
     cy.get(':nth-child(2) > input').type('GteteqbQQgSr88SwNExUQv2ydb7xuf8c')

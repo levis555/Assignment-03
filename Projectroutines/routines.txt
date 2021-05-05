@@ -1,0 +1,8 @@
+Projektrutiner
+
+vi ska inte arbeta i master/main
+Vi ska granska varandras filer innan de integreras i master/main
+Vi ska göra regelbundna avstämningar så att vi inte arbetar i samma filer samtidigt
+
+
+
